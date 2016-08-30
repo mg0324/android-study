@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">helloAndroid</string>
+    <string name="hello_title">helloAndroid</string>
+    <string name="hello_other_title">另外一个activity</string>
+</resources>
