@@ -4,8 +4,5 @@
 	1.HelloAndroid - 2016-08-30 - 按钮点击打开另一个activity并跳转到淘宝网页
 	2.ActivityLife - 2016-08-30 - 按钮点击打开主题为dialog的activity,主要是用来观察activity的生命周期方法调用过程。
 ##2016-08-30
-1.按钮点击打开另一个activity并跳转到淘宝网页。
-![](./images/Screenshot_20160830-094529.png)
-![](./images/Screenshot_20160830-094537.png)
-2.按钮点击打开主题为dialog的activity,主要是用来观察activity的生命周期方法调用过程。
-![](./images/Screenshot_20160830-202043.png)
+	1.按钮点击打开另一个activity并跳转到淘宝网页。
+	2.按钮点击打开主题为dialog的activity,主要是用来观察activity的生命周期方法调用过程。
