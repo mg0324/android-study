@@ -16,4 +16,17 @@
         android:layout_height="wrap_content"
         android:text="打开Activity"
         android:id="@+id/btnOpenAty" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="接收返回值："
+        android:id="@+id/tvForReturnLabel" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="等待返回"
+        android:id="@+id/tvForReturnValue" />
+
 </LinearLayout>

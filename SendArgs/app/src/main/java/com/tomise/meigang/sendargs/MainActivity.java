@@ -4,13 +4,15 @@ import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
+import android.widget.TextView;
 
 public class MainActivity extends AppCompatActivity {
-
+    TextView tvReturnValue;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+        tvReturnValue = (TextView) findViewById(R.id.tvForReturnValue);
 
         findViewById(R.id.btnOpenAty).setOnClickListener(new View.OnClickListener() {
             @Override
@@ -26,15 +28,24 @@ public class MainActivity extends AppCompatActivity {
                 //3.传递值对象
                 Bundle c = new Bundle();
                 User u = new User("xiaohong",20);
-                c.putSerializable("user",u);
+                //c.putSerializable("user",u);
+                c.putParcelable("user",u);
                 i.putExtra("userBundle",c);
 
                 //4.接收返回值
-                
+                startActivityForResult(i,1);
                 //使用意图启动activity
-                startActivity(i);
+                //startActivity(i);
+
 
             }
         });
+    }
+
+    @Override
+    protected void onActivityResult(int requestCode, int resultCode, Intent data) {
+        super.onActivityResult(requestCode, resultCode, data);
+        String red = data.getStringExtra("dd");
+        tvReturnValue.setText(red);//写入显示
     }
 }
