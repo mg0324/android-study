@@ -6,6 +6,7 @@
 	3.SendArgs - 2016-09-05 - 体现activity间参数的传递。
 	4.LaunchMode - 2016-09-06 - activity的启动模式详解。
 	5.LearnIntent - 2016-09-06 - 学习Intent相关知识。
+	6.LearnApplication - 2016-09-08 - 学习Application全局共享数据
 ##2016-08-30
 	1.按钮点击打开另一个activity并跳转到淘宝网页。
 	2.按钮点击打开主题为dialog的activity,主要是用来观察activity的生命周期方法调用过程。
@@ -27,6 +28,8 @@
 	2.intent隐士调用Activity
 	3.intent设置的相关参数
 	4.通过浏览器调用Activity
-	
+
+##2016-09-08
+	1.学习Application来共享数据，试用其全局特性。
 
 	
