@@ -9,6 +9,7 @@
 	6.LearnApplication - 2016-09-08 - 学习Application全局共享数据
 	7.LearnService - 2016-09-08 - 学习Service组件。
 	8.LearnAIDL - 2016-09-11 - 学习AIDL跨应用Service通信。
+	9.LearnBroatcaseReveiver - 2016-09-11 - 学习广播接收者
 ##2016-08-30
 	1.按钮点击打开另一个activity并跳转到淘宝网页。
 	2.按钮点击打开主题为dialog的activity,主要是用来观察activity的生命周期方法调用过程。
